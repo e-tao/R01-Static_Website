@@ -19,9 +19,9 @@ The application has the following features:
 ## Tech
 The project uses the following language, toolkit, IDE, database etc...
 
-- [HTML] - The sole language for the application
-- [CSS] -  Graphical class library 
-- [VS Code] - IDE for C# development
+- [HTML] - The standard markup language for this website
+- [CSS] -  Style sheet language used in the project
+- [VS Code] - IDE for the site evelopment
 - [git] - version control
 
 ## Screenshot
