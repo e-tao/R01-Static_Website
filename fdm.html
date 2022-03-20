@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDM Printer</title>
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="noanim-nozzle">
+                <img src="images/nozzle.png">
+            </div>
+            <div id="noanim-entry-title">
+                3D Print Fun
+            </div>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                    <li><a href=" fdm.html"> FDM PRINTERS </a></li>
+                    <li><a href="resin.html"> RESIN PRINTERS </a></li>
+                    <li><a href="about.html"> ABOUT </a></li>
+                </ul>
+            </nav>
+            <main>
+                <!-- <p class="article-title">Types of FDM printers and their Pros &amp; Cons</p> -->
+                <div class="content">
+                    <img src="images/cartesian.png" alt="cartesian 3d printer">
+                    <article>
+                        <p>Cartesian Printer</p>
+                        <p>Cartesian 3D printers move components linearly along the X-, Y-, and Z-axes to position print
+                            head and print within three-dimensional space. The print head generally moves on a X or Y
+                            gantry, which in turn moves along the Z-axis, though other motion variations are also
+                            possible, depending on the printer.</p>
+
+                        <details>
+                            <summary>Pros:</summary>
+                            <ul>
+                                <li>Relatively cheap</li>
+                                <li>Simple to understand and implement</li>
+                                <li>Comparatively easy to upgrade and fix</li>
+                                <li>Lots of community support</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>Cons:</summary>
+                            <ul>
+                                <li>Large and heavy frame</li>
+                                <li>Relatively slow</li>
+                                <li>Limited print height</li>
+                            </ul>
+                        </details>
+                    </article>
+                </div>
+                <div class="content">
+                    <img src="images/corexy.png" alt="corexy 3d printer">
+                    <article>
+                        <p>Core XY Printer</p>
+                        <p>motion on CoreXY printers incorporates a system of belts and pulleys to move the printhead on
+                            the XY plane. In particular, CoreXY printers use two stepper motors that move one belt each
+                            to position the printhead.
+                        </p>
+                        <p>
+                            Meanwhile, the print bed is mounted on a Z-axis motion system, such as threaded rods. This
+                            system moves the print bed up and down so that the printhead can print layers for the
+                            desired part. CoreXY printers are usually cube-shaped to contain the axes and pulleys.
+                        </p>
+                        <details>
+                            <summary>Pros:</summary>
+                            <ul>
+                                <li>Large print space for footprint</li>
+                                <li>Relatively stable</li>
+                                <li>Lightweight parts</li>
+                                <li>Few vibrations</li>
+                                <li>Relatively high accuracy</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>Cons:</summary>
+                            <ul>
+                                <li>Relatively expensive</li>
+                                <li>Requires a powerful controller board</li>
+                                <li>Energy inefficient</li>
+                                <li>Higher risk of print failures</li>
+                            </ul>
+                        </details>
+                    </article>
+                </div>
+                <div class="content">
+                    <img src="images/delta.png" alt="delta 3d printer">
+                    <article>
+                        <p>Delta Printer</p>
+                        <p>Delta 3D printers work with three (or sometimes even more) arms attached to vertical rails.
+                            The printhead is connected to the end of each arm with hinges, and the arms work together to
+                            adjust the printhead’s position. The coordinated movement of a delta printer’s arms controls
+                            the printhead’s height (Z axis) and location (X- and Y-axes) relative to the print bed.</p>
+
+                        <details>
+                            <summary>Pros:</summary>
+                            <ul>
+                                <li>Relatively fast</li>
+                                <li>High print quality</li>
+                                <li>Generally capable of tall prints</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>Cons:</summary>
+                            <ul>
+                                <li>Difficult to fix and upgrade</li>
+                                <li>Less compatible with direct drive extrusion</li>
+                                <li>Typically small build volume</li>
+                            </ul>
+                        </details>
+                    </article>
+
+                </div>
+
+            </main>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESIN Printer</title>
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="noanim-nozzle">
+                <img src="images/nozzle.png">
+            </div>
+            <div id="noanim-entry-title">
+                3D Print Fun
+            </div>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                    <li><a href=" fdm.html"> FDM PRINTERS </a></li>
+                    <li><a href="resin.html"> RESIN PRINTERS </a></li>
+                    <li><a href="about.html"> ABOUT </a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="content">
+                    <img src="images/resin.png" alt="SLA 3d printer">
+                    <article>
+                        <p>SLA Printer</p>
+                        <p>When the process starts, the laser “draws” the first layer of the print into the
+                            photosensitive resin. Wherever the laser hits, the liquid solidifies. The laser is directed
+                            to the appropriate coordinates by a computer-controlled mirror.
+                        </p>
+                        <p>
+                            At this point, it’s worth mentioning that most desktop SLA printers work upside-down. That
+                            is, the laser is pointed up to the build platform, which starts low and is incrementally
+                            raised.
+                        </p>
+                        <p>
+                            After the first layer, the platform is raised according to the layer thickness (typically
+                            about 0.1 mm) and the additional resin is allowed to flow below the already-printed portion.
+                            The laser then solidifies the next cross-section, and the process is repeated until the
+                            whole part is complete. The resin that is not touched by the laser remains in the vat and
+                            can be reused.</p>
+                        <details>
+                            <summary>Pros:</summary>
+                            <ul>
+                                <li>SLA is one of the most precise 3D printing techniques on the market.</li>
+                                <li>Prototypes can be created with extremely high quality, with finely detailed features
+                                    (thin walls, sharp corners, etc…) and complex geometrical shapes. Layer thicknesses
+                                    can be made as low as 25 μm, with minimum feature sizes between 50 and 250 μm.</li>
+                                <li>SLA provides the tightest dimensional tolerances of any rapid prototyping or
+                                    additive manufacturing technology: +/- 0.005″ (0.127 mm) for the first inch, and an
+                                    additional 0.002″ for each additional inch.</li>
+                                <li>Print surfaces are smooth.</li>
+                                <li>Build volumes can be as high as 50 x 50 x 60 cm³ without sacrificing precision.</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>Cons:</summary>
+                            <ul>
+                                <li>Printing tends to take a long time.</li>
+                                <li>Steep slopes and overhangs require support structures during the building process.
+                                    Such parts may potentially collapse during printing or curing phases.</li>
+                                <li>Resins are comparatively fragile and therefore not suitable for functional
+                                    prototypes or mechanical testing.</li>
+                                <li>SLA offers limited material and color choice, usually offering black, white, grey
+                                    and clear material. Resins are oftentimes proprietary and therefore cannot be easily
+                                    exchanged between printers from different brands.</li>
+                                <li>
+                                    SLA printing costs are comparatively high (e.g. machine, materials, lab
+                                    environment).
+                                </li>
+                            </ul>
+                        </details>
+                    </article>
+                </div>
+                <div class="content">
+                    <img src="images/resin.png" alt="DLP 3d printer">
+                    <article>
+                        <p>DLP Printer</p>
+                        <p>Now that you know how SLA works, it’s time to take a closer look at DLP. DLP is a “sister
+                            technology” to SLA as the only big difference is the light source used to cure the resin. As
+                            we just mentioned, SLA printers use lasers combined with galvanometers to cure resin.
+                        </p>
+                        <p>
+                            With a DLP 3D printer, the light source is a specially developed digital light projector
+                            screen. Thanks to this screen, DLP is generally considered to be faster than SLA, and here’s
+                            why:
+                        </p>
+                        <p>
+                            With SLA, the laser has to individually cure the resin in a “point to point” technique. On
+                            the other hand, a DLP projector screen flashes an image of a layer all at once! Thus all
+                            points of a layer can be cured simultaneously. In this way, the print speed is increased in
+                            comparison to SLA since it takes less time to cure a single layer.
+                        </p>
+                        <p>
+                            Since the DLP is a digital technology, the 2D image that is projected is composed of pixels.
+                            When translated into three dimensions, they become voxels.
+                        </p>
+                        <p>
+                            The light source of a DLP 3D printer itself, an LED screen, means nothing without a digital
+                            micromirror device (DMD), the “heart” of every DLP chipset. A DMD contains hundreds of
+                            thousands or even millions of small micromirrors that direct the light and create the
+                            pattern of a layer onto the bottom of the resin tank.
+                        </p>
+                        <p>
+                            The resolution of a printed part using a DLP 3D printer usually corresponds to the number of
+                            micromirrors inside a DMD device.
+                        </p>
+                        <details>
+                            <summary>Pros:</summary>
+                            <ul>
+                                <li>Better resolution</li>
+                                <li>Faster printing process</li>
+                                <li>Stronger finished products</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary>Cons:</summary>
+                            <ul>
+                                <li>More expensive</li>
+                                <li>No option for composite prints</li>
+                                <li>Difficult and messy post-processing</li>
+                                <li>Poor availability</li>
+                            </ul>
+                        </details>
+                    </article>
+                </div>
+            </main>
+        </section>
+    </div>
+</body>
+
+</html>
